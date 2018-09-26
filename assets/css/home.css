@@ -59,15 +59,17 @@ img.greeter {
 	height: 100vh;
 }
 
+@media only screen and (max-width: 450px) {
+	img.greeter {
+		height: 50vh;
+}
+
 @media only screen and (min-width: 451px) and (max-width: 768px) {
 	img.greeter {
 		height: 50vh;
 }
 
-@media only screen and (max-width: 450px) {
-	img.greeter {
-		height: 50vh;
-}
+
 	
 /* MAIN */
 
