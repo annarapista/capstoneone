@@ -1,0 +1,128 @@
+html {
+	margin: 0
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+
+/* NAVBAR */
+
+.navbar {
+	background-color: #041738 !important;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Monoton', cursive;
+	font-size: 1.5em;
+	padding-top: 10px;
+	 background: -webkit-linear-gradient(#E70000, #FF8C00, #FFEF00, #00811F, #0044FF, #760089);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+}
+
+.navbar .nav-item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	background-color: #041738;
+	padding: 5px 20px 5px 20px;
+}
+
+.navbar .nav-item .nav-link {
+	color: white;
+}
+
+											/* add links */
+
+.header {
+	font-size: 5em;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+}
+
+h1 {
+	padding: 50px 0px 50px 0px;
+	text-align: center;
+	font-family: 'Covered By Your Grace', cursive;
+}
+
+.custom-container {
+	background-color: #083359;
+	padding: 70px 0px 50px 0px;
+}
+
+[class*=col] {
+	padding-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #546A7B;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+.column-headers {
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	border-bottom: 0.5px dotted #FFCCC9;
+	padding-top: 10px;
+}
+
+.contact-details, .social-media-icons {
+	margin-left: 15px;
+}
+
+.contact-details {
+	font-size: 16px;
+	text-align: center;
+}
+
+.social-media-icons {
+	text-align: center;
+	color: #495F41;
+	font-size: 3em;
+}
+
+.social-media-links {
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+.social-media-icons a:link {
+	color: #FFCCC9;
+}
+
+.social-media-icons a:visited {
+	color: white;
+}
+
+.social-media-icons a:hover {
+	color: yellow;
+}
+
+.social-media-icons a:active {
+	color: #FFCCC9;
+}
+
+
+
+
+
+

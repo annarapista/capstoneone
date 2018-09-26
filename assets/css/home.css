@@ -1,0 +1,218 @@
+html {
+	margin: 0
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+
+}
+
+body {
+	font-family: 'Open Sans';
+
+
+	
+}
+
+
+/* NAVBAR */
+
+.navbar {
+	background-color: #041738 !important;
+}
+
+.navbar .navbar-brand {
+	font-family: 'Monoton', cursive;
+	font-size: 1.5em;
+	padding-top: 10px;
+	 background: -webkit-linear-gradient(#E70000, #FF8C00, #FFEF00, #00811F, #0044FF, #760089);
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+}
+
+.navbar .nav-item {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	background-color: #041738;
+	padding: 5px 20px 5px 20px;
+}
+
+.navbar .nav-item .nav-link {
+	color: white;
+}
+
+											/* add links */
+
+
+/* HEADER */
+img.greeter {
+	width: 100vw;
+	background-size: cover;
+	height: 100vh;
+}
+
+/* MAIN */
+
+.home-box {
+	padding: 20px 0px 40px 0px;
+	text-align: center;
+	height: 100%;
+	background-image: url('../images/background2a.jpg');
+	opacity: 0.9;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home-header-container {
+	padding: 40px;
+}
+
+.home-header {
+	font-size: 3em;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+
+.not-container {
+	padding: 10px 50px 10px 50px;
+}
+
+.carousel-item {
+	text-align: center;
+}
+
+
+.carousel-inner {
+	color: white;
+	font-size: 1em;
+}
+
+.btn-custom {
+	background-color: #041738;
+	border: 0.5px solid #041738;
+	margin: 40px 0px 20px 0px;
+	text-align: center;
+	color: grey;
+}
+
+a.learnmore:hover {
+	text-decoration: none;
+}
+
+a.learnmore:visited {
+	color: blue;
+} 
+
+a.learnmore:hover {
+	color: white;
+} 
+
+a.learnmore:active {
+	color: green;
+}
+
+
+	/* TOP 25 */
+
+caption .caption-top25 {
+	color: black;
+}
+
+	/* BEST FINALES */
+
+.home-bestfinales {
+	background-color: #041738;
+	opacity: 0.9;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+	/* FAVE QUOTES */
+
+.card {
+	background-color: grey;
+}
+
+.home-favequotes {
+	text-align: center;
+	background-color: #041738;;
+	opacity: 0.9;
+}
+
+.btn-custom2 {
+	background-color: white;
+	border: 0.5px solid white;
+	margin: 40px 0px 20px 0px;
+	text-align: center;
+	color:#041738 ;
+}
+
+
+/* FOOTER */
+
+
+footer {
+	background-color: #546A7B;
+	padding: 10px;
+	opacity: 0.9;
+}
+
+.column-headers {
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	border-bottom: 0.5px dotted #FFCCC9;
+	padding-top: 10px;
+}
+
+.contact-details, .social-media-icons {
+	margin-left: 15px;
+}
+
+.contact-details {
+	font-size: 16px;
+	text-align: center;
+}
+
+.social-media-icons {
+	text-align: center;
+	color: #495F41;
+	font-size: 3em;
+}
+
+.social-media-links {
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+.social-media-icons a:link {
+	color: #FFCCC9;
+}
+
+.social-media-icons a:visited {
+	color: white;
+}
+
+.social-media-icons a:hover {
+	color: yellow;
+}
+
+.social-media-icons a:active {
+	color: #FFCCC9;
+}
+
+
+
+
+

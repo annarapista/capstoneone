@@ -1,0 +1,30 @@
+[class*=col] {
+	border: 1px solid black;
+}
+
+.row {
+	min-height: 100px;
+	text-align: center;
+	color: white;
+}
+
+.row1 {
+	background-color: #58A4B0;
+}
+
+.row2 {
+	background-color: #0C7C59;
+}
+
+.row3 {
+	background-color: #2B303A;
+}
+
+.row4 {
+	background-color: #D64933;
+}
+
+.cols {
+	height: 100px;
+	border: 1px solid black;
+}
