@@ -120,11 +120,11 @@ a.learnmore:hover {
 }
 
 a.learnmore:visited {
-	color: blue;
+	color: white;
 } 
 
 a.learnmore:hover {
-	color: white;
+	color: yellow;
 } 
 
 a.learnmore:active {
